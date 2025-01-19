@@ -1,0 +1,36 @@
+/* Footer container styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Links section styles */
+.footer-links ul, .social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li, .social-media li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Link styling */
+.footer-links a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover, .social-media a:hover {
+    color: #1e90ff;
+}
+
+/* Footer note styles */
+.footer-note {
+    margin-top: 20px;
+    font-size: 14px;
+}
